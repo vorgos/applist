@@ -10,10 +10,11 @@ I've included a copy here, with minor change to compile cleanly.
 
 Assuming you have XCode installed, run like this,
 
-sh ./applist.sh 
+`sh ./applist.sh `
 
 and it will compile, create an executable called applist and then run it. The output should be list this...
 
+```
 $ ./applist.sh  
 78540 com.apple.Terminal
 80897 com.barebones.textwrangler
@@ -24,3 +25,4 @@ $ ./applist.sh
 54490 com.transtex.texeditplus
 55055 com.apple.Dictionary
 54549 com.apple.QuickTimePlayerX
+```
