@@ -1,7 +1,9 @@
 echo '#import <Cocoa/Cocoa.h>
 
 // Thx http://stackoverflow.com/a/3001507/348694
-#import "Front2BackOrder.c"
+// for pointing to https://gist.github.com/0xced/163918#file-copylaunchedapplicationsinfronttobackorder-c
+// I've included a copy with minor change to compile cleanly on 10.6
+#import "CopyLaunchedApplicationsInFrontToBackOrder.c"
 
 // Thx http://stackoverflow.com/a/7446805/348694
 void NSPrint (NSString *str)
